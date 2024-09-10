@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Studio Diva</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- Fonte artística do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#" class="logo logo-anim">Studio Diva</a>
+            <div class="menu-hamburger" id="menu-toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Seção Hero com imagem de fundo -->
+    <section class="hero">
+        <h1><span class="art-font">Realce Sua<br> Beleza</span></h1>
+        <p>Cuidado personalizado para cabelos, pele e unhas.</p>
+        <a href="#" class="btn">Agende Agora</a>
+    </section>
+     <!-- Seção Destaque Visual -->
+    <section class="highlight">
+        <img src="img/imagem_modelo.jpg" alt="Modelo com cabelo bem tratado">
+        <div class="highlight-text">
+            <h2>Beleza Que Brilha</h2>
+            <p>Cuidamos do seu visual para que você se sinta linda todos os dias.</p>
+        </div>
+    </section>
+         <!-- Seção de Serviços -->
+<section class="services">
+    <h2>Nossos Serviços</h2>
+    <p>Oferecemos uma ampla gama de serviços de beleza personalizados para você se sentir mais confiante e radiante.</p>
+    <div class="service-list">
+        <div class="service-item">
+            <img src="img/icon-cabelos.png" alt="Cabelos" class="service-icon">
+            <p>Cabelos</p>
+        </div>
+        <div class="service-item">
+            <img src="img/icon-maquiagem.png" alt="Maquiagem" class="service-icon">
+            <p>Maquiagem</p>
+        </div>
+        <div class="service-item">
+            <img src="img/icon-manicure.png" alt="Manicure e Pedicure" class="service-icon">
+            <p>Manicure e Pedicure</p>
+        </div>
+        <div class="service-item">
+            <img src="img/icon-tratamentos.png" alt="Tratamentos de Pele" class="service-icon">
+            <p>Tratamentos de Pele</p>
+        </div>
+    </div>
+    <a href="#" class="btn">Conheça todos os serviços</a>
+</section>
+    <!-- Galeria de Fotos -->
+    <section class="gallery">
+        <h2>Galeria</h2>
+        <p>Confira nossas clientes satisfeitas</p>
+        <div class="gallery-grid">
+            <img src="img/galeria1.png">
+            <img src="img/galeria2.png">
+            <img src="img/galeria3.png">
+            <img src="img/galeria4.png">
+            <img src="img/galeria5.png">
+            <img src="img/galeria6.png">
+        </div>
+    </section>
+    <!-- Depoimentos -->
+    <section class="testimonials">
+        <h2>O que Nossas Clientes Dizem</h2>
+        <div class="testimonial-item">"Meu cabelo nunca esteve tão lindo!"</div>
+        <div class="testimonial-item">"A equipe é incrível, sempre saio renovada."</div>
+    </section>
+    <!-- Contato e Localização -->
+<section class="contact">
+    <h2>Faça seu agendamento online</h2>
+    <form action="#">
+        <input type="text" placeholder="Nome" required>
+        <input type="email" placeholder="E-mail" required>
+        <input type="tel" placeholder="Telefone" required>
+        <input type="date" placeholder="Data" required>
+        <input type="time" placeholder="Hora" required>
+        <textarea placeholder="Mensagem" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+    </form>
+    </div>
+</section>
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <a href="#" class="logo">Studio Diva</a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Galeria</a>
+            <a href="#">Contato</a>
+        </div>
+        <div class="footer-social">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>© 2024 Studio Diva. Todos os direitos reservados.</p>
+    </div>
+</footer>
+     <script>
+        // JavaScript para alternar o menu hambúrguer
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            var navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
